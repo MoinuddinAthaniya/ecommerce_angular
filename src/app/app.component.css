@@ -1,0 +1,23 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+*{
+    text-align: center;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+  header ul{
+    display: flex;
+  }
+  header ul li{
+    list-style-type: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
